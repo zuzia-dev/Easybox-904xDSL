@@ -35,7 +35,7 @@ Included:
 - software and configuriation for 3G/LTE modems and USB tethering
 - DSL port as a WAN (vlan eth0.2) - working internet connection
 - support filesystem: ext4, vfat, msdos, f2fs
-- script Sysinfo and CPU temperature applet for LuCI (by Cezary Jackiewicz).
+- script Sysinfo and CPU temperature applet for LuCI (by Cezary Jackiewicz)
 - Dnsmasq as DHCP server
 
 Not included:
@@ -55,11 +55,12 @@ Not included:
   to the router either with a browser - http://192.168.1.1 (or with ssh root@192.168.1.1).
 
 Flash a full OpenWrt system:
-- Use the browser to connect to http://192.168.1.1.
+- Download the latest version [SMP full image](https://github.com/zuzia-dev/Easybox-904xDSL-repo-source/raw/main/Firmware/SMP/v1/openwrt-lantiq-xrx200-arcadyan_vgv952cjw33-e-ir-smp-squashfs-sysupgrade.bin) or [VPE full image](https://github.com/zuzia-dev/Easybox-904xDSL-repo-source/raw/main/Firmware/VPE/v1/openwrt-lantiq-xrx200-arcadyan_vgv952cjw33-e-ir-vpe-squashfs-sysupgrade.bin)  
+- Use the browser to connect to http://192.168.1.1
 - Login (no password needs to be set up).
 - Use menu item  System -> Backup -> Flash Firmware.
 
 After succesfull flash router will reboot into full OpenWrt image.
 
-## License
+### License
 OpenWrt is licensed under GPL-2.0
