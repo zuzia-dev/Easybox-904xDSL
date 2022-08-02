@@ -1,19 +1,27 @@
 ## Arcadyan/Astoria Easybox 904 xDSL (VGV952CJW33-E-IR)
 
 #### Hardware Specification 
-- CPU: Lantiq PSB 80920 EL V1.2 VRX200 2x500MHz with a mips32 architekture called mips_34Kc
+- CPU: Lantiq PSB 80920 EL V1.2 VRX200 2x500MHz with a mips32 architecture called mips_34Kc
 - RAM: EtronTech EM68C16CWQD-25H 128MB DDRII SDRAM 400MHz
 - Flash: Samsung K9F4G08U0x 512MiB NAND-flash
 - Ethernet: Realtek RTL8367RB 4x 10/100/1000 Mbit/s vlan support
 - Wlan: Realtek RT3883F + RT5392L 5GHz/2.4GHz 802.11abgn
 - xDSL-Modem: Lantiq PSB 80190 V V1.1 XWAY VRX208 up to VDSL2 profile 30a and Vectoring support
-- POTS: Lantiq PEF 42068 V V1.2 XWAY SLIC120 2 x FXS Analog Telefon ports
+- POTS: Lantiq PEF 42068 V V1.2 XWAY SLIC120 2 x FXS Analog Telephone ports
 - ISDN: Lantiq PEF 82902 F V1.1 T TSMINTI 4B3T 1 x S0-Bus
 - LCD-Screen: ILITEK ILI9341 TFT LCD 320x240 RGB 262K colors
 - Simcardreader: one exist but no function
 - Serial: yes with connectors
 - USB: 2 x USB-2.0
 - Touchpad: yes
+> Based on informations shared by sites: 
+- https://openwrt.org/toh/astoria/arcadyan_astoria_easybox_904xdsl_r01
+- https://forum.archive.openwrt.org/viewtopic.php?id=44676&p=1
+- https://forum.openwrt.org/t/support-for-easybox-904-lte
+- https://eko.one.pl/forum/viewtopic.php?id=16158
+- http://arny.tjps.eu/OpenWrt/EasyBox904xDSL
+- https://github.com/Quallenauge/Easybox-904-XDSL
+- https://github.com/Plonkbong/Easybox-904-XDSL
 
 ## Small [Recovery] with GUI for the Easybox 904 xDSL 
 
