@@ -22,32 +22,24 @@
 - http://arny.tjps.eu/OpenWrt/EasyBox904xDSL
 - https://github.com/Quallenauge/Easybox-904-XDSL
 - https://github.com/Plonkbong/Easybox-904-XDSL
-- https://forum.openwrt.org/t/lantiq-xrx200-easybox-904xdsl-and-speedport-w-921v-build/
 
 ## Small [Recovery] with GUI for the Easybox 904 xDSL 
 In case of problems (e.g. bootloop) or if you want to update an older image (<2018-03-11), you need to perform the update in the Recovery. 
-Recovery based on OpenWrt 19.07 r14162-ef765ceb09. Available in two versions: SMP and VPE.
-
-#### -> [Fullimage.img - SMP](https://github.com/zuzia-dev/Easybox-904xDSL/releases/download/v1.Recovery/fullimage.img-SMP)
-``` bash
-MD5: 8056a33ec2bb4352e00174ad8a08f18d
-SHA256: e93f2635607ea62292d2f85e8eb55641afcd76621ae932397bf251d9a3ea00b8
-```
-#### -> [Fullimage.img - VPE](https://github.com/zuzia-dev/Easybox-904xDSL/releases/download/v1.Recovery/fullimage.img-VPE)
-``` bash
-MD5: 604346bc439cee9fb16a57fee00ffb52
-SHA256: a3bc8ec78d468200854d3404c4be16ccab015fa0e25497ef5ff466c0b2c37cbd
-```
+Recovery based on OpenWrt. Available in two versions: SMP and VPE: https://github.com/zuzia-dev/Easybox-904xDSL/releases/tag/v2.Recovery
 
 Included:
 - support USB 2.0
-- kernel 4.19.138 
+- kernel kernel 5.4.238 
 - LuCI with internationalization and localization (en, de, pl)
-- LCD and touch keys - LCD4Linux is installed (white and black theme)
+- LCD and touch keys - LCD4Linux is installed (default white theme)
 - software and configuriation for 3G/LTE modems and USB tethering
 - DSL port as a WAN (vlan eth0.2) - working internet connection
-- support filesystem: ext4, vfat, msdos, f2fs
+- tools for installation hacked bootloader - run: /etc/hacked-bootloader
+- online package repository via Github but run first: /etc/opkg-fix
+- CPU utilization info & Internet detector for the LuCI (by gSpotx2f)
 - script Sysinfo and CPU temperature applet for LuCI (by Cezary Jackiewicz)
+- support filesystem: ext4, vfat, msdos
+- software flow offload via iptables
 - Dnsmasq as DHCP server
 
 Not included:
