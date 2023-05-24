@@ -25,7 +25,8 @@
 
 ## Small [Recovery] with GUI for the Easybox 904 xDSL 
 In case of problems (e.g. bootloop) or if you want to update an older image (<2018-03-11), you need to perform the update in the Recovery. 
-Recovery based on OpenWrt. Available in two versions: SMP and VPE: https://github.com/zuzia-dev/Easybox-904xDSL/releases/tag/v2.Recovery
+Recovery based on OpenWrt. 
+#### Available in two versions ->  [Fullimage.img - ver. SMP and Fullimage.img - ver. VPE](https://github.com/zuzia-dev/Easybox-904xDSL/releases/tag/v2.Recovery)
 
 Included:
 - support USB 2.0
@@ -34,12 +35,12 @@ Included:
 - LCD and touch keys - LCD4Linux is installed (default white theme)
 - software and configuriation for 3G/LTE modems and USB tethering
 - DSL port as a WAN (vlan eth0.2) - working internet connection
-- tools for installation hacked bootloader - run: /etc/hacked-bootloader
-- online package repository via Github but run first: /etc/opkg-fix
+- tools for installation hacked bootloader - Internet connection required for script: ```/etc/hacked-bootloader```
+- online package repository but run first: ```/etc/opkg-fix```
 - CPU utilization info & Internet detector for the LuCI (by gSpotx2f)
 - script Sysinfo and CPU temperature applet for LuCI (by Cezary Jackiewicz)
 - support filesystem: ext4, vfat, msdos
-- software flow offload via iptables
+- active software flow offloading via iptables
 - Dnsmasq as DHCP server
 
 Not included:
