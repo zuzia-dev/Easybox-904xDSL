@@ -62,11 +62,11 @@ For more information please see: [Link](https://chomikuj.pl/ZuzannaCK/ROUTERY/EA
 
 #### Flash a full OpenWrt 21.02 system:
 > It's recommended to update the bootloader before uploading OpenWrt. Instructions for updating: [Link](https://openwrt.org/toh/astoria/arcadyan_astoria_easybox_904xdsl_r01#installing_hacked_bootloader)
-- Download the latest version [SMP full image](https://github.com/zuzia-dev/Easybox-904xDSL-repo-source/tree/main/Firmware/SMP) or [VPE full image](https://github.com/zuzia-dev/Easybox-904xDSL-repo-source/tree/main/Firmware/VPE) (file *squashfs-sysupgrade.bin)
+- Download the latest version SMP or VPE full image [(file *squashfs-sysupgrade.bin)](https://github.com/zuzia-dev/Easybox-904xDSL-repo-source/releases/tag/v2.OpenWrt)
 - Use the browser to connect to http://192.168.1.1
 - Login (no password needs to be set up).
 - Use menu item  System -> Backup -> Flash Firmware.
-> Important! The "Keep settings and retain the current configuration" option must be unchecked.
+> Important! Uncheck "Keep settings and retain the current configuration".
 
 After succesfull flash router will reboot into full OpenWrt image.
 
