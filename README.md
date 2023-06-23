@@ -60,9 +60,10 @@ Not included:
   
 For more information please see: [Link](https://chomikuj.pl/ZuzannaCK/ROUTERY/EASYBOX+904+xDSL/OpenWrt+Recovery+(bootloop+lub+pierwsze+wgranie)) (pl)
 
-#### Flash a full OpenWrt 21.02 system:
+#### Flash a full OpenWrt 21.02 system
+OpenWrt installation instructions: [Link](https://github.com/zuzia-dev/Easybox-904xDSL-repo-source#perform-the-following-procedures-to-upgrade-the-firmware)
 > It's recommended to update the bootloader before uploading OpenWrt. Instructions for updating: [Link](https://openwrt.org/toh/astoria/arcadyan_astoria_easybox_904xdsl_r01#installing_hacked_bootloader)
-- Download the latest version SMP or VPE full image [(file *squashfs-sysupgrade.bin)](https://github.com/zuzia-dev/Easybox-904xDSL-repo-source/releases/tag/v2.OpenWrt)
+- Download the latest version SMP or VPE full image [(file *squashfs-sysupgrade.bin)](https://github.com/zuzia-dev/Easybox-904xDSL-repo-source/releases/latest)
 - Use the browser to connect to http://192.168.1.1
 - Login (no password needs to be set up).
 - Use menu item  System -> Backup -> Flash Firmware.
