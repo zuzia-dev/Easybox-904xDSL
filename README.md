@@ -1,5 +1,5 @@
 ## Arcadyan/Astoria Easybox 904 xDSL (VGV952CJW33-E-IR)
-[![Openwrt](https://img.shields.io/badge/os-OpenWrt-<COLOR>.svg)](https://github.com/zuzia-dev/openwrt/) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/zuzia-dev/Easybox-904xDSL?color=orange)](https://github.com/zuzia-dev/Easybox-904xDSL/releases/latest) [![GitHub Downloads](https://img.shields.io/github/downloads/zuzia-dev/Easybox-904xDSL/latest/total)](https://github.com/zuzia-dev/Easybox-904xDSL/releases/latest) [![GitHub issues](https://img.shields.io/github/issues/zuzia-dev/Easybox-904xDSL?color=green)](https://GitHub.com/zuzia-dev/Easybox-904xDSL/issues) ![GitHub latest commit](https://img.shields.io/github/last-commit/zuzia-dev/Easybox-904xDSL?color=00BFFF) [![GitHub forks](https://img.shields.io/github/forks/zuzia-dev/Easybox-904xDSL?color=93917C)](https://GitHub.com/zuzia-dev/Easybox-904xDSL/forks) [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://github.com/zuzia-dev/Easybox-904xDSL#license) 
+[![Openwrt](https://img.shields.io/badge/os-OpenWrt-<COLOR>.svg)](https://github.com/zuzia-dev/openwrt/) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/zuzia-dev/Easybox-904xDSL?color=orange)](https://github.com/zuzia-dev/Easybox-904xDSL/releases/latest) [![GitHub Downloads](https://img.shields.io/github/downloads/zuzia-dev/Easybox-904xDSL/total)](https://github.com/zuzia-dev/Easybox-904xDSL/releases/latest) [![GitHub issues](https://img.shields.io/github/issues/zuzia-dev/Easybox-904xDSL?color=green)](https://GitHub.com/zuzia-dev/Easybox-904xDSL/issues) ![GitHub latest commit](https://img.shields.io/github/last-commit/zuzia-dev/Easybox-904xDSL?color=00BFFF) [![GitHub forks](https://img.shields.io/github/forks/zuzia-dev/Easybox-904xDSL?color=93917C)](https://GitHub.com/zuzia-dev/Easybox-904xDSL/forks) [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://github.com/zuzia-dev/Easybox-904xDSL#license) 
 #### Hardware Specification 
 - CPU: Lantiq PSB 80920 EL V1.2 VRX200 2x500 MHz with a mips32 architecture called mips_34Kc
 - RAM: EtronTech EM68C16CWQD-25H 128 MB DDR II SDRAM 400 MHz
@@ -45,7 +45,7 @@ Included:
 
 Not included:
 - DSL software
-- WiFi software
+- Wi-Fi software
 - debug options
 - IPv6
 
@@ -57,6 +57,8 @@ Not included:
 - Turn off the router, then turn it on again.
 - You need to wait about two minutes. Then you can connect
   to the router either with a browser - http://192.168.1.1 (or with ssh root@192.168.1.1).
+
+<img src="https://github.com/zuzia-dev/Easybox-904xDSL/blob/master/Recovery-OpenWrt-21.02-SNAPSHOT/Luci-terminal-sysinfo-recovery-vpe.jpg?raw=true"/>
   
 For more information please see: [Link](https://chomikuj.pl/ZuzannaCK/ROUTERY/EASYBOX+904+xDSL/OpenWrt+Recovery+(bootloop+lub+pierwsze+wgranie)) (pl)
 
