@@ -30,7 +30,7 @@ Recovery based on OpenWrt.
 
 Included:
 - support USB 2.0
-- kernel kernel 5.4.238 
+- kernel 5.4.248
 - LuCI with internationalization and localization (en, de, pl)
 - LCD and touch keys - LCD4Linux is installed (default white theme)
 - software and configuriation for 3G/LTE modems and USB tethering
@@ -38,7 +38,7 @@ Included:
 - tools for installation hacked bootloader - Internet connection required for script: ```/etc/hacked-bootloader```
 - online package repository but run first: ```/etc/opkg-fix```
 - CPU utilization info & Internet detector for the LuCI (by gSpotx2f)
-- script Sysinfo and CPU temperature applet for LuCI (by Cezary Jackiewicz)
+- modified script Sysinfo and CPU temperature applet for LuCI (by Cezary Jackiewicz)
 - support filesystem: ext4, vfat, msdos
 - active software flow offloading via iptables
 - Dnsmasq as DHCP server
